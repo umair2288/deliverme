@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Button} from 'antd';
+import MainComponent from './components/MainComponent';
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Hi</Button>
+      <MainComponent></MainComponent>
     </div>
   );
 }
